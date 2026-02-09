@@ -1,0 +1,1 @@
+# An-lisis-de-la-deforestaci-n-en-la-selva-amaz-nica-con-t-cnicas-de-segmentaci-n
