@@ -6,7 +6,10 @@ Este repositorio contiene el análisis completo de la deforestación en el Bosqu
 
 ```
 └── analysis/                       # Visualizaciones (9 gráficos)
-├── Act.3_pdf.md        # Informe científico (Markdown)
+├── Act.3_pdf.md                    # Informe científico (Markdown)
+├── quantification_results.csv      # Resultados de cuantificación (CSV)
+├── README.md                       # Documentación del proyecto
+
 ```
 
 ## Resultados Principales
