@@ -8,9 +8,6 @@
 # Resumen
 
 El presente estudio analiza la evolución de la deforestación en el Bosque Nacional Jamanxim (Brasil) durante el período 2000-2019 mediante la aplicación de técnicas de segmentación digital sobre 20 imágenes satelitales de NASA Earth Observatory. Se implementaron cuatro métodos de segmentación: umbral de Otsu (global y adaptativo) y segmentación basada en color (espacios Lab y HSV), precedidos por un preprocesamiento que incluyó mejora de contraste mediante CLAHE, corrección gamma y filtrado gaussiano. Los operadores morfológicos (apertura y cierre) se emplearon para refinar las máscaras binarias resultantes. La cuantificación del área deforestada se realizó utilizando la escala de 20 km = 51 píxeles, obteniendo valores promedio de 4029 km² (Otsu), 1613 km² (HSV), 4.79 km² (Lab) y 19976 km² (Adaptativo). El método de Otsu demostró ser el más consistente para detectar zonas deforestadas, revelando un incremento del 153.6% entre 2000 y 2019. El análisis temporal evidencia una tendencia creciente significativa en la deforestación, especialmente marcada entre 2004-2008. Se concluye que la segmentación automática de imágenes constituye una herramienta eficaz para la monitorización multitemporal de cambios en la cobertura forestal, aunque presenta limitaciones asociadas a la variabilidad de iluminación y condiciones atmosféricas.
-
-**Palabras clave:** Deforestación, segmentación de imágenes, Amazonia, procesamiento digital, teledetección
-
 ---
 
 # 1. Introducción
